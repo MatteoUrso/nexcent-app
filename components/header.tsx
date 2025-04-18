@@ -10,7 +10,10 @@ export function Header() {
         <Icons.icon className="block md:hidden" />
         <NavBar />
         <div className="flex items-center gap-3.5">
-          <Button variant="link" className="h-10">
+          <Button
+            variant="link"
+            className="h-10 rounded-[6px] px-5 py-2.5 text-sm leading-5 font-medium tracking-normal"
+          >
             Login
           </Button>
           <Button className="h-10 rounded-[6px] px-5 py-2.5 text-sm leading-5 font-medium tracking-normal">
