@@ -23,9 +23,6 @@ const ACHIEVEMENTS = [
   },
 ];
 
-// TODO: Sistemare l'accessibilità
-// TODO: Utilizzare dei tag semantici
-
 export function Achievements() {
   return (
     <section
@@ -44,23 +41,32 @@ export function Achievements() {
             We reached here with our hard work and dedication
           </p>
         </div>
-        <div className="flex-1">
-          <ul className="grid grid-cols-1 gap-[30px] md:grid-cols-2">
+        <div className="flex-1" aria-labelledby="achievements-title">
+          <ul
+            className="grid grid-cols-1 gap-[30px] md:grid-cols-2"
+            role="list"
+          >
             {ACHIEVEMENTS.map((achievement) => {
+              const formattedValue = new Intl.NumberFormat("en-US", {
+                notation: "standard",
+                compactDisplay: "long",
+              }).format(achievement.value);
+
               return (
                 <li
                   key={achievement.label}
                   className="flex h-[60px] items-center gap-4"
                 >
-                  <div className="flex h-12 w-12 items-center justify-center">
+                  <div
+                    className="flex h-12 w-12 items-center justify-center"
+                    aria-hidden="true"
+                  >
                     <achievement.icon />
                   </div>
                   <div>
                     <h3>
-                      {new Intl.NumberFormat("en-US", {
-                        notation: "standard",
-                        compactDisplay: "long",
-                      }).format(achievement.value)}
+                      <span className="sr-only">{achievement.label}: </span>
+                      {formattedValue}
                     </h3>
                     <p className="text-body-regular-2 text-grey">
                       {achievement.label}
