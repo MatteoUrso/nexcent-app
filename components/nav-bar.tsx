@@ -1,3 +1,4 @@
+import { cn } from "@/lib/utils";
 import Link from "next/link";
 
 const NAV_LINKS = [
@@ -32,7 +33,11 @@ export function NavBar() {
             <li key={link.href}>
               <Link
                 href={link.href}
-                className="text-body-regular-2 text-[#18191F]"
+                className={cn(
+                  "text-body-regular-2 text-[#18191F]",
+                  "hover:underline",
+                  "focus-visible:ring-d-grey focus-visible:ring-1 focus-visible:outline-none"
+                )}
               >
                 {link.label}
               </Link>
