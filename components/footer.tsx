@@ -1,3 +1,3 @@
 export function Footer() {
-  return null;
+  return <footer className="h-[328px] w-full bg-black"></footer>;
 }
