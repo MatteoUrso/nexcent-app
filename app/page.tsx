@@ -1,10 +1,9 @@
+import { Hero } from "@/components/hero";
+
 export default function Page() {
   return (
-    <main>
-      <h1>Headline 1</h1>
-      <h2>Headline 2</h2>
-      <h3>Headline 3</h3>
-      <h4>Headline 4</h4>
+    <main className="w-full">
+      <Hero />
     </main>
   );
 }
