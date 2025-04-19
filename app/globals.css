@@ -69,6 +69,11 @@
   --text-body-regular-2--letter-spacing: 0;
   --text-body-regular-2--font-weight: 400;
 
+  --text-body-regular-3: 14px;
+  --text-body-regular-3--line-height: 20px;
+  --text-body-regular-3--letter-spacing: 0;
+  --text-body-regular-3--font-weight: 400;
+
   --text-body-medium-2: 16px;
   --text-body-medium-2--line-height: 24px;
   --text-body-medium-2--letter-spacing: 0;
