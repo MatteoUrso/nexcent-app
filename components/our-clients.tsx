@@ -37,7 +37,7 @@ export function OurClients() {
   return (
     <section
       id="our-clients"
-      className="container mx-auto mt-10 px-4 md:px-0"
+      className="container mx-auto mt-10 px-4"
       aria-labelledby="our-clients-title"
     >
       <h2 id="our-clients-title" className="text-center">

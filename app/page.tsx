@@ -2,6 +2,7 @@ import { Achievements } from "@/components/achievements";
 import { Community } from "@/components/community";
 import { Hero } from "@/components/hero";
 import { OurClients } from "@/components/our-clients";
+import { Unlock } from "@/components/unlock";
 
 export default function Page() {
   return (
@@ -9,6 +10,7 @@ export default function Page() {
       <Hero />
       <OurClients />
       <Community />
+      <Unlock />
       <Achievements />
     </main>
   );

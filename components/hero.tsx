@@ -8,7 +8,7 @@ export function Hero() {
       className="bg-silver w-full py-24"
       aria-labelledby="hero-title"
     >
-      <div className="container mx-auto flex items-center gap-[104px] px-4 md:px-0">
+      <div className="container mx-auto flex items-center gap-[104px] px-4">
         <div className="flex-1">
           <h1 id="hero-title" className="text-d-grey">
             Lessons and insights

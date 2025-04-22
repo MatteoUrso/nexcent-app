@@ -25,7 +25,7 @@ export function Community() {
   return (
     <section
       id="community"
-      className="container mx-auto mt-10 px-4 md:px-0"
+      className="container mx-auto mt-10 px-4"
       aria-labelledby="community-title"
     >
       <h2 id="community-title" className="text-center">

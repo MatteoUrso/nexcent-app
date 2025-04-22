@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 export function Header() {
   return (
     <header className="bg-silver h-[84px] w-full">
-      <div className="container mx-auto flex h-full items-center justify-between px-4 md:px-0">
+      <div className="container mx-auto flex h-full items-center justify-between px-4">
         <Icons.logo className="hidden md:block" />
         <Icons.icon className="block md:hidden" />
         <NavBar />

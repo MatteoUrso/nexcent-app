@@ -1,25 +1,25 @@
-import { Icons } from "./icons";
+import { Book, Club, CreditCard, Users } from "lucide-react";
 
 const ACHIEVEMENTS = [
   {
     value: 2245341,
     label: "Members",
-    icon: Icons.members,
+    icon: Users,
   },
   {
     value: 46328,
     label: "Clubs",
-    icon: Icons.clubs,
+    icon: Club,
   },
   {
     value: 828867,
     label: "Event Bookings",
-    icon: Icons.eventBookings,
+    icon: Book,
   },
   {
     value: 1926436,
     label: "Payments",
-    icon: Icons.payments,
+    icon: CreditCard,
   },
 ];
 
@@ -30,7 +30,7 @@ export function Achievements() {
       className="bg-silver mt-12 w-full py-[84px]"
       aria-labelledby="achievements-title"
     >
-      <div className="container mx-auto flex flex-col gap-y-7 px-4 md:px-0 lg:flex-row lg:gap-y-0">
+      <div className="container mx-auto flex flex-col gap-y-7 px-4 lg:flex-row lg:gap-y-0">
         <div className="flex flex-1 flex-col items-center gap-y-2 lg:items-start">
           <h2 id="achievements-title">
             Helping a local
@@ -61,7 +61,7 @@ export function Achievements() {
                     className="flex h-12 w-12 items-center justify-center"
                     aria-hidden="true"
                   >
-                    <achievement.icon />
+                    <achievement.icon className="text-primary h-8 w-8" />
                   </div>
                   <div>
                     <h3>
