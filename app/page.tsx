@@ -1,4 +1,5 @@
 import { Achievements } from "@/components/achievements";
+import { Calendar } from "@/components/calender";
 import { Community } from "@/components/community";
 import { CommunityUpdates } from "@/components/community-updates";
 import { Hero } from "@/components/hero";
@@ -14,6 +15,7 @@ export default function Page() {
       <Community />
       <Unlock />
       <Achievements />
+      <Calendar />
       <CommunityUpdates />
       <Latin />
     </main>
