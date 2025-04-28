@@ -11,6 +11,7 @@ const buttonVariants = cva(
         default:
           "bg-primary text-white hover:bg-primary focus-visible:ring-d-grey focus-visible:ring-2 focus-visible:outline-none active:bg-shade-s2 disabled:bg-grey-blue disabled:text-silver",
         link: "bg-transparent text-primary hover:underline focus-visible:underline focus-visible:ring-d-grey focus-visible:ring-2 focus-visible:outline-none active:text-shade-s2 active:underline disabled:text-silver",
+        ghost: "hover:bg-primary hover:text-white",
       },
     },
     defaultVariants: {
