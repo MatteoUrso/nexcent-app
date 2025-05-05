@@ -34,11 +34,17 @@
 
 ### Built With
 
-- [![Next][Next.js]][Next-url]
-
-- [![React][React.js]][React-url]
-
-* [![Vue][Vue.js]][Vue-url]
+- ![React.js](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge)
+- ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&style=for-the-badge)
+- ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-grey?style=for-the-badge&logo=tailwind-css&logoColor=38B2AC)
+- ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white&style=for-the-badge)
+- ![Radix UI](https://img.shields.io/badge/Radix_UI-161618?style=for-the-badge&logo=radixui&logoColor=white)
+- ![ESLint](https://img.shields.io/badge/ESLint-4B3263?logo=eslint&logoColor=white&style=for-the-badge)
+- ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&logoColor=black&style=for-the-badge)
+- ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge)
+- ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge)
+- ![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white&style=for-the-badge)
+- ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white&style=for-the-badge)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,6 +75,8 @@
    npm run dev
    ```
 4. Open your browser and navigate to `http://localhost:3000`
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 
